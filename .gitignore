@@ -1,0 +1,19 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache & logs
+__pycache__/
+*.py[cod]
+*.log
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore datasets (prevents pushing large files)
+dataset/
+deepfake_frames/
+
+# Ignore VS Code settings (optional)
+.vscode/
